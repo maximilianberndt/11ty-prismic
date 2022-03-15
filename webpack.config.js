@@ -48,11 +48,6 @@ module.exports = {
         loader: "babel-loader",
       },
       {
-        test: /\.glsl$/,
-        exclude: /node_modules/,
-        loader: "webpack-glsl-loader",
-      },
-      {
         test: /\.s?css/i,
         use: [
           MiniCssExtractPlugin.loader,
